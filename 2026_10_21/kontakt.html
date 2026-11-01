@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <header>
+        <a href="/">Strona główna</a>
+        <a href="/o-nas">O nas</a>
+        <a href="/oferta">Oferta</a>
+        <a href="/kontakt">Kontakt</a>
+    </header>
+<main>
+    <h1>Kontakt</h1>
+    <form action="/kontakt" method="POST" >
+        <label for="name">Imie:</label><br>
+        <input type="text" id="name" name="imie"><br>
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" id="surname" name="nazwisko"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Wiadomość:</label><br>
+        <textarea id="message" name="wiadomosc"></textarea><br>
+        <button type="submit">Wyślij</button>
+    </form>
+</main>
+<footer>
+    <p>Bartosz Jaborkhel 4E</p>
+</footer>
+</body>
+</html>
